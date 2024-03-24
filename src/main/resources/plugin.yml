@@ -1,0 +1,9 @@
+name: LifePatchNotes
+version: 1.0
+main: net.azisaba.lifepatchnotes.LifePatchNotes
+api-version: 1.13
+commands:
+  viewpatchnotes:
+    description: View the latest patch notes
+    usage: /viewpatchnotes
+    permission: lifepatchnotes.viewpatchnotes
