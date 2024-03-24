@@ -51,7 +51,7 @@ class BotThread(private val plugin: LifePatchNotes) : Thread("LifePatchNotes-Bot
                     Collections.synchronizedList(mutableListOf())
                 }.add(content)
                 // broadcast message
-                Bukkit.broadcastMessage(content)
+                Bukkit.broadcastMessage("§b[更新情報]\n$content")
             }
 
             plugin.slF4JLogger.info("Logging in...")
